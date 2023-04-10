@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  display: flex;
+  height: 110px;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover {
+  background-color: #ffe5b4;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  width: 100%;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.429);
+}
